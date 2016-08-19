@@ -1,0 +1,31 @@
+body {
+	 
+	
+    text-align: center;
+    
+
+}
+
+.container{
+/* This image will be displayed fullscreen */
+	background:url('http://screenplay.biz/wp-content/uploads/2016/05/occupy-wall-street.jpg') no-repeat center center;
+
+	/* Ensure the html element always takes up the full height of the browser window */
+	min-height:100vh;
+	min-width: 100vw;
+
+	/* The Magic */
+	background-size:cover;
+}
+.container h1, h2 {
+	color:white !important;	
+	 
+}
+
+
+		
+
+body{
+	/* Workaround for some mobile browsers */
+	min-height:100%;
+}
