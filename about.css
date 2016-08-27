@@ -6,3 +6,8 @@ background-size: cover;
 color:rgb(255,0,0);
 text-align: center;
 }
+#img2 {
+	width:1300px;
+	height: 500px;
+	align: fixed;
+}
