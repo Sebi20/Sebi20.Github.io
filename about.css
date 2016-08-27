@@ -1,13 +1,10 @@
 body {
 	
 
-	 background-image: url('http://data.whicdn.com/images/38193800/large.gif');
-background-size: cover;
+	/* background-image: url('http://data.whicdn.com/images/38193800/large.gif');
+background-size: cover;*/
 color:rgb(255,0,0);
 text-align: center;
 }
-#img2 {
-	width:1300px;
-	height: 500px;
-	align: fixed;
+
 }
