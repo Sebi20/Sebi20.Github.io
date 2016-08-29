@@ -1,4 +1,13 @@
 #img3{
-	width:25px;
+	width:50px;
 	align:fixed;
 }
+body{
+	background-image: url('https://media.giphy.com/media/8gnvbWIDHBlFm/giphy.gif');
+background-size: cover;
+color:rgb(255,0,0);
+text-align: center;
+font-size: 30px;
+}
+
+

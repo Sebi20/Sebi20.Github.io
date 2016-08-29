@@ -1,19 +1,22 @@
 body {
 	
 
-	#background-image: url('https://media3.giphy.com/media/pkVHZKcnzzkmA/200.gif');
+	 background-image: url('http://data.whicdn.com/images/38193800/large.gif');
 background-size: cover;
-	color:rgb(255,165,0);
-	 text-align: center;
-	 font-size: 50px;
-	
+color:rgb(255,165,0);
+text-align: center;
+font-size: 50px;
 }
+
 
  #img1 {
 	width:1300px;
 	height: 500px;
 	align: fixed;
 }
+
+
+
 
 
 
