@@ -16,6 +16,14 @@ ul.topnav {
     background-color: #333;
 }
 
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    background-color: #333;
+}
+
 /* Float the list items side by side */
 ul.topnav li {float: left;}
 
@@ -27,7 +35,7 @@ ul.topnav li a {
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 /* Change background color of links on hover */
