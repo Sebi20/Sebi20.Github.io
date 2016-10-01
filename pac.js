@@ -1,26 +1,29 @@
-var myGamePiece;
+// Where is the circle
+var x, y;
 
-function startGame() {
-    myGameArea.start();
-    myGamePiece = new component(30, 30, "red", 10, 120);
+function setup() {
+  createCanvas(720, 400);
+  // Starts in the middle
+  x = width / 2;
+  y = height;
 }
 
-var myGameArea = {
-    canvas : document.createElement("canvas"),
-    start : function() {
-        this.canvas.width = 480;
-        this.canvas.height = 270;
-        this.context = this.canvas.getContext("2d");
-        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
-    }
+function draw() {
+  background(200);
+  
+  // Draw a circle
+  stroke(50);
+  fill(100);
+  ellipse(x, y, 24, 24);
+  
+  // Jiggling randomly on the horizontal axis
+  x = x + random(-1, 1);
+  // Moving up at a constant speed
+  y = y - 1;
+  
+  // Reset to the bottom
+  if (y < 0) {
+    y = height;
+  }
 }
 
-function component(width, height, color, x, y) {
-    this.width = width;
-    this.height = height;
-    this.x = x;
-    this.y = y;
-    ctx = myGameArea.context;
-    ctx.fillStyle = color;
-    ctx.fillRect(this.x, this.y, this.width, this.height);
-}
