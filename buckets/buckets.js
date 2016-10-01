@@ -4,14 +4,6 @@ var boundry1
 var boundry2
 var boundry3
 var boundry4
-var myScore
-
-
-
-function startGame() {
-    myScore = new component("30px", "Consolas", "black", 280, 40, "text");
-}
-
 
 function setup(){
 	createCanvas(400,400);
