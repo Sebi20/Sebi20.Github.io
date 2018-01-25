@@ -1,5 +1,5 @@
 var paddle, ball;
-var MAX_SPEED=10;
+var MAX_SPEED=7;
 var boundry1
 var boundry2
 var boundry3
