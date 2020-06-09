@@ -1,0 +1,79 @@
+body {
+	
+
+	background-image: url('Keyboardimg.jpeg');
+    background-size: cover;
+    
+
+}
+div.container{
+    background-color:red;
+    margin-top: 25px;
+    width: auto;
+    height: 500px;
+}
+div.container:hover{
+border: 5px solid blue;
+}
+
+h1{
+    font-size: 50px;
+    color:orange;
+    text-align: center;
+
+}
+
+h2 {
+    color: red;
+}
+
+div.gallery {
+    width: 100%;
+    height: auto;
+    padding-left: 250px;
+    padding-top: 70px;
+  
+}
+
+div.gallery img{
+    margin: 15px;
+    border: 1px solid #ccc;
+    position: center;
+    width: 300px;
+}
+
+div.gallery img:hover{
+    border: 1px solid blue;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    /*overflow: hidden;*/
+    background-color: #333;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    margin-left: 1px;
+    margin-top: 1px;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+}
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+    background-color: blue;
+}
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {
+    display: none;
+}

@@ -1,0 +1,66 @@
+body {
+	
+
+	background-image: url('Keyboardimg.jpeg');
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 50px;
+    font-style: italic;
+    color:orange;
+    text-align: center;
+	text-align: fixed;
+}
+
+h3{
+    color:grey;
+    text-align: center;
+    text-align: fixed;
+}
+
+
+img.logo{
+    position: center;
+    padding:18px 40px;
+    width:50px;
+}
+img.logo:hover{
+    border: 1.5px dashed blue;
+}
+
+/*Navigation buttons*/
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    background-color: #333;
+}
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+}
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+    background-color: blue;
+}
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {
+    display: none;
+}
+
+
+
+
+
