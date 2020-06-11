@@ -1,16 +1,10 @@
 body {
-	
-
 	background-image: url('Keyboardimg.jpeg');
     background-size: cover;
-    
-
+    background-color: black;
 }
 
-
-
-
-/*Top Navigation bar*/
+/*Navigation buttons*/
 ul.topnav {
     list-style-type: none;
     margin:0;
