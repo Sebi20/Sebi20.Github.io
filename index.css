@@ -1,17 +1,18 @@
 body {
-	
-    animation-name: background;
+	background-image: url('Keyboardimg.jpeg');
+    background-size: cover;
+    /*animation-name: background;
     animation-duration: 10s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;*/
 
 }
 
-@keyframes background { 
+/*@keyframes background { 
     0% {background-color:#C39BD3;}
     50% {background-color:#F8C471;}
     75% {background-color:#F8C471;}
     100% { background-color:#C39BD3;}
- }
+ }*/
 
 h1{
     font-size: 50px;
