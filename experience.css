@@ -1,9 +1,19 @@
 body {
 	background-image: url('Keyboardimg.jpeg');
     background-size: cover;
-    background-color: black;
+   animation-name: background;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
+/*This allows the background to change*/
+@keyframes background { 
+    0% {background-color:#C39BD3;}
+    50% {background-color:#F8C471;}
+    75% {background-color:#F8C471;}
+    100% { background-color:#C39BD3;}
+ }
+ 
 /*Navigation buttons*/
 ul.topnav {
     list-style-type: none;

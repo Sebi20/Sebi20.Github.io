@@ -1,7 +1,6 @@
 body {
 	background-image: url('Keyboardimg.jpeg');
     background-size: cover;
-   /* background-color: black;*/
     animation-name: background;
     animation-duration: 10s;
     animation-iteration-count: infinite;
