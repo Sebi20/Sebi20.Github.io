@@ -6,46 +6,11 @@ body {
     
 
 }
-div.container{
-    background-color:red;
-    margin-top: 25px;
-    width: auto;
-    height: 500px;
-}
-div.container:hover{
-border: 5px solid blue;
-}
 
-h1{
-    font-size: 50px;
-    color:orange;
-    text-align: center;
 
-}
 
-h2 {
-    color: red;
-}
 
-div.gallery {
-    width: 100%;
-    height: auto;
-    padding-left: 250px;
-    padding-top: 70px;
-  
-}
-
-div.gallery img{
-    margin: 15px;
-    border: 1px solid #ccc;
-    position: center;
-    width: 300px;
-}
-
-div.gallery img:hover{
-    border: 1px solid blue;
-}
-
+/*Top Navigation bar*/
 ul.topnav {
     list-style-type: none;
     margin:0;
