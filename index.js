@@ -4,8 +4,8 @@ function myFunction() {
         x.className += " responsive";
     } else {
         x.className = "topnav";
-    }
-}
+    }// End of if...else statement
+}// End of myFunction
 
 
 
