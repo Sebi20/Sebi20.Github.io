@@ -10,6 +10,15 @@ body {
     animation-iteration-count: infinite;
 }
 
+/*This allows the background to change*/
+@keyframes background:  { 
+    0% {background-color:#C39BD3;}
+    50% {background-color:#F8C471;}
+    75% {background-color:#F8C471;}
+    100% { background-color:#C39BD3;}
+ }
+
+
 .container{
     padding-top: 50px;
 }
@@ -20,13 +29,6 @@ body {
   text-shadow: 1px 4px 1px blue;
 }
 
-/*This allows the background to change*/
-@keyframes background:  { 
-    0% {background-color:#C39BD3;}
-    50% {background-color:#F8C471;}
-    75% {background-color:#F8C471;}
-    100% { background-color:#C39BD3;}
- }
 
  .carouselImg{
     width: 100%;
