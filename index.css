@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
 	background-image: url('Keyboardimg.jpeg');
     background-size: cover;
@@ -5,6 +9,7 @@ body {
     animation-duration: 10s;
     animation-iteration-count: infinite;
 }
+
 
 /*This allows the background to change*/
 @keyframes background { 
@@ -14,13 +19,15 @@ body {
     100% { background-color:#C39BD3;}
  }
 
-h1{
+.header{
+    padding-top: 50px;
     font-size: 50px;
     font-style: italic;
     color:orange;
     text-align: center;
 	text-align: fixed;
-}
+} 
+
 
 h3{
     color:grey;

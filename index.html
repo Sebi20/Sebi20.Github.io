@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+	
 	<head>
 
 		 <!-- This links the page to the CSS file -->
@@ -11,13 +12,17 @@
 		 <!-- This creates the title to the page -->
 		 <title>Sebastian's Site</title>
 
+         <!-- This enables the page to be more formal -->
+		 <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   
+		 crossorigin="anonymous"></script> 
+		
+		 <!-- This connects the Javascript file with the HTML file -->
+		 <script src="index.js"></script> 
+
 	</head>
 
 	<body> 
-		<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   
-		crossorigin="anonymous"></script> <!-- This enables the page to be more formal -->
 		
-		<script src="index.js"></script> <!-- This connects the Javascript file with the HTML file -->
 
 		<!--Navigation buttons -->
 		<ul class="topnav" id="myTopnav">
@@ -25,9 +30,10 @@
     
   			<li class="icon"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li>
 		</ul>
+
 		<br> <!-- To create space below the nav -->
 	
-		<center><h1><i><br> WELCOME</i></h1></center>
+		<h1 class = "header"> WELCOME</h1>
 		<br> <!-- To create space below my head words -->
 
 		<h3>#Humanist #Tech<h3>
@@ -49,7 +55,8 @@
 
 			<h3>Now enjoy some music by clicking play:)</h3>
 
-			<audio controls> <source src="My Song 6.m4a" type="audio/mpeg">Your browser does not support the audio element.
+			<audio controls> 
+				<source src="My Song 6.m4a" type="audio/mpeg">Your browser does not support the audio element.
 			</audio>
 		
 		</center> <!-- End of the center tag -->
