@@ -3,20 +3,46 @@ html{
 }
 
 body {
-	background-image: url('Keyboardimg.jpeg');
+	
     background-size: cover;
-    animation-name: background;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+    background-color: black;
+   /* animation-name: background;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;*/
 }
 
 
+
 /*This allows the background to change*/
-@keyframes background { 
+/*@keyframes background { 
     0% {background-color:#C39BD3;}
     50% {background-color:#F8C471;}
     75% {background-color:#F8C471;}
     100% { background-color:#C39BD3;}
+ }*/
+
+ #demo{
+    color: red;
+ }
+
+ .test{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    /*background-image: url('IMG_4779.JPG');*/
+    animation-name: backpics;
+    animation-duration: 22s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+ }
+
+ @keyframes backpics{
+    0% {background-image:url('IMG_4779.JPG')}
+    50% {background-image:url('IMG_4784.JPG')}
+    75% {background-image:url('Rally.png')}
+    100% {background-image:url('IMG_6234.JPG')}
  }
 
 .header{
@@ -28,8 +54,16 @@ body {
 	text-align: fixed;
 } 
 
+.email{
+    color:  grey;
+}
 
-h3{
+.music{
+    color: grey;
+}
+
+
+.hashtags{
     color:grey;
     text-align: center;
     text-align: fixed;
