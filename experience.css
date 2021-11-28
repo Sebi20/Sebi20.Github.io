@@ -3,12 +3,13 @@ html{
 }
 
 body {
-	background-image: url('Keyboardimg.jpeg');
-    background-size: cover;
+	background-size: cover;
+    background-color: rgb(32,32,32);
     animation-name: background;
     animation-duration: 10s;
     animation-iteration-count: infinite;
 }
+
 
 /*This allows the background to change*/
 @keyframes background:  { 
@@ -18,23 +19,68 @@ body {
     100% { background-color:#C39BD3;}
  }
 
-
-.container{
-    padding-top: 50px;
-}
-
-.top{
-
-    color: purple;
-  text-shadow: 1px 4px 1px blue;
+#timeline{
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    background-color: rgba(255, 255, 255, .15);  
 }
 
 
- .carouselImg{
-    width: 100%;
+
+#myHeader{
+    text-decoration: underline;
+    text-align: center;
+    color:rgb(255, 102, 0);
+
+}
+
+.line{
+    border-top: 4.5px solid rgb(51, 0, 51);
+    border-left: 4.5px solid rgb(51, 0, 51);
     height: 100%;
- }
+    width: 500px;
+    margin-left:150px;
+    position: absolute;
+
  
+}
+
+
+
+/*.points{
+    position: absolute;
+    width:10px;
+    height:10px;
+    background-color: orange;
+    border-radius:5px;
+    z-index: 0;
+    margin: -5px;
+}
+
+.points2{
+    position: absolute;
+    width:10px;
+    height:10px;
+    background-color: orange;
+    border-radius:5px;
+    z-index: 0;
+    left: 98%;
+    top: -1%;
+}*/
+
+.projects{
+    position: relative;
+    left: 10px;
+}
+
+.projects p{
+    margin-top: -16px;
+}
+
+
+
+
 /*Navigation buttons*/
 ul.topnav {
     list-style-type: none;
