@@ -15,7 +15,7 @@ body {
 #container{
     margin-top: 20px;
     height: 510px;
-    background-image: url("/Applications/Coding projects/Sebi20.Github.io/IMG_4779.JPG");
+    background-image: url("IMG_4779.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #261C2C;
