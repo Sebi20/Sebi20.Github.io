@@ -3,36 +3,38 @@ html{
 }
 
 body {
-	
+    /* Potential text color #DBE8D4 */
+	/* background-color: #222733; */
     background-size: cover;
     background-color: rgb(32,32,32);
     
-}
+} 
 
 /* --------------Beginning of the header ------------------------------*/
 
-/* This is a div and contains a right div and left div */
-#container{
+/* This is a div and contains the header*/
+#header{
     margin-top: 20px;
     height: 510px;
-    background-image: url("IMG_4779.JPG");
+    background-image: url("images/969256.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #261C2C;
+    background-position: center;
 
 }
 
 .headerTextbox{
-    background-color: #261C2C;
+    /* background-color: #261C2C; */
     position: relative;
     width: 300px;
     height: 200px;
-    top: 20%;
-    left: 5%;
+    top: 30%;
+    left: 15%;
 }
 
 .headerTextbox p{
-    color: #6E85B2;
+    color: white;
     font-size: 20px;
 
 }
@@ -49,7 +51,7 @@ body {
 img#icons{
     position: relative;
     padding: 7px;
-    width:25px;
+    width:40px;
 }
 img#icons:hover{
     border: 1.5px dashed blue;
@@ -62,101 +64,33 @@ img#icons:hover{
 }
 
 .email{
-    color:  grey;
+    color: white;
 }
 /*------------------------End of the Icons section--------------------------------*/
-
-
-#myHeader{
-
+.headings{
+    margin-top: 40px;
+    color: whitesmoke;
     text-decoration: underline;
-    text-align: center;
-    color:rgb(255, 102, 0);
-
 }
 
-/* This contains the contents of the timeline
-It's here so I can move the timeline anywhere I want */
-#timeline{ 
-    position: absolute;
-    width: 800px;
-    height: 1000px;
-    background-color: rgba(255, 255, 255, .15);
-    left: 10%; 
-    border-radius: 10px;
-
-}
-
-.year{
-    color:rgb(255, 102, 0);
-    left: 5%;
-}
-
-#year2021{
-    position: relative;
-    top: 18%;
-}
-
-#year2020{
-    position: relative;
-    top: 60%;
-}
-
-/* This div contains the lines, points and paragraphs of the timeline */
-.line{
-    border-top: 4.5px solid rgb(51, 0, 51);
-    border-left: 4.5px solid rgb(51, 0, 51);
-    height: 100%;
-    width: 500px;
-    margin-left:150px;
-    position: absolute;
-    top: 10px;
-}
-
-
-.yearLines{
-    border: none;
-    width: 100%;
-    height: 4px;
-    background-color:rgb(51, 0, 51);
-}
-
-
-
-.point{
-    position: absolute;
-    width:10px;
-    height:10px;
-    background-color: orange;
-    border-radius:5px;
-    z-index: 0;
-    left: 98%;
-    top: -0.8%;
-}
-
-#pointB{ /*The second point on the timeline*/
-    position: relative;
-    width:10px;
-    height:10px;
-    background-color: orange;
-    border-radius:5px;
-    z-index: 3;
-    left: 98%;
-    top: -16px;
-
+.projectsContainer{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    color:whitesmoke;
+    margin-left: 10px;
 
 }
 
 .projects{
-    position: relative;
-    left: 10px;
+    margin: 10px;
+    background-color: gray;
+    height: auto;
 }
 
-.projects p{
-    margin-top: -16px;
+.projectsHeading{
+    display: flex;
 }
 
-.toolLogos{
-    width: 40px;
-    height:20px;
+.projects:hover{
+    border: whitesmoke solid 2px;
 }
