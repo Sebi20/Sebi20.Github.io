@@ -92,5 +92,17 @@ img#icons:hover{
 }
 
 .projects:hover{
-    border: whitesmoke solid 2px;
+    border: salmon solid 2px;
+}
+
+.projectTitle{
+    margin-right: auto;
+}
+
+.projectStart{
+    margin-right: 10px;
+}
+
+.projectTitle{
+    margin-right: 5px;
 }
