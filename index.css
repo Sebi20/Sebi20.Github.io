@@ -43,28 +43,28 @@ body {
     color: #F0A500;
     font-size: 20px;
     left: 40%;
+}
 
+.headerTextbox strong{
+    color: white;
+}
+
+.headerTextbox .email{
+    color: #f1d69b;
 }
 
 /*------------------------End of the header---------------------------------------*/
+.quickLinksDiv{
+    display: flex;
+}
 img#icons{
     position: relative;
     padding: 7px;
     width:40px;
+    margin-right: 50px;
 }
 img#icons:hover{
-    /* border: 1.5px dashed blue; */
     box-shadow: 2px 2px 20px 2px#F0A500;
-}
-
-#inTextIcons{
-    display: inline; /*the default for span */
-    position: relative;
-    top: 12px;
-}
-
-.email{
-    color: white;
 }
 /*------------------------End of the Icons section--------------------------------*/
 .headings{
