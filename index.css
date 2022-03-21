@@ -16,21 +16,20 @@ body {
 #header{
     margin-top: 20px;
     height: 510px;
-    background-image: url("images/969256.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #261C2C;
-    background-position: center;
-
+    display: flex;
+    align-items: center;
 }
 
 .headerTextbox{
-    /* background-color: #261C2C; */
-    position: relative;
-    width: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    margin-right: 10%;
+    margin-left: 25%;
+}
+
+.headerImg{
     height: 200px;
-    top: 30%;
-    left: 15%;
+    width: 192px;
 }
 
 .headerTextbox p{
@@ -54,7 +53,8 @@ img#icons{
     width:40px;
 }
 img#icons:hover{
-    border: 1.5px dashed blue;
+    /* border: 1.5px dashed blue; */
+    box-shadow: 2px 2px 20px 2px#F0A500;
 }
 
 #inTextIcons{
@@ -85,6 +85,7 @@ img#icons:hover{
     margin: 10px;
     background-color: gray;
     height: auto;
+    transition: 0.5s;
 }
 
 .projectsHeading{
@@ -92,7 +93,11 @@ img#icons:hover{
 }
 
 .projects:hover{
-    border: salmon solid 2px;
+    transform: scale(1.1);
+    border: 1px solid #767fff;
+    z-index: 1;
+
+
 }
 
 .projectTitle{
@@ -105,4 +110,9 @@ img#icons:hover{
 
 .projectTitle{
     margin-right: 5px;
+}
+
+iframe{
+    width: 500px;
+    height: 500px;
 }
