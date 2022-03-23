@@ -55,22 +55,28 @@ body {
 
 /*------------------------End of the header---------------------------------------*/
 .quickLinksDiv{
-    display: flex;
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    place-content: center;
 }
 img#icons{
     position: relative;
     padding: 7px;
     width:40px;
-    margin-right: 50px;
 }
 img#icons:hover{
-    box-shadow: 2px 2px 20px 2px#F0A500;
+    box-shadow: 2px 2px 20px 2px#f1d69b
 }
 /*------------------------End of the Icons section--------------------------------*/
 .headings{
     margin-top: 40px;
-    color: whitesmoke;
-    text-decoration: underline;
+    color: aliceblue; 
+    text-align: center;
+}
+
+.headings hr{
+    width: 150px;
+    border: 1px solid #f1d69b;
 }
 
 .projectsContainer{
@@ -84,7 +90,6 @@ img#icons:hover{
 .projects{
     margin: 10px;
     background-color: gray;
-    height: auto;
     transition: 0.5s;
 }
 
@@ -110,9 +115,4 @@ img#icons:hover{
 
 .projectTitle{
     margin-right: 5px;
-}
-
-iframe{
-    width: 500px;
-    height: 500px;
 }
