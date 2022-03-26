@@ -6,7 +6,7 @@ body {
     /* Potential text color #DBE8D4 */
 	/* background-color: #222733; */
     background-size: cover;
-    background-color: rgb(32,32,32);
+    background-color: rgb(32, 32, 32)
     
 } 
 
@@ -63,6 +63,7 @@ img#icons{
     position: relative;
     padding: 7px;
     width:60px;
+    transition: 1s;
 }
 img#icons:hover{
     box-shadow: 2px 2px 20px 2px#f1d69b
@@ -76,7 +77,7 @@ img#icons:hover{
 
 .headings hr{
     width: 150px;
-    border: 1px solid #f1d69b;
+    border: 1px solid rgba(238, 218, 151, 0.7);;
 }
 
 .projectsContainer{
@@ -90,7 +91,7 @@ img#icons:hover{
 
 .projects{
     margin: 10px;
-    transition: 1s;
+    transition: 0.9s;
     height: 250px;
 }
 
@@ -107,4 +108,8 @@ img#icons:hover{
     transform: scale(1.1);
     box-shadow: 2px 2px 20px 2px#f1d69b;
     z-index: 1;
+}
+
+audio{
+    color: #F0A500;
 }
