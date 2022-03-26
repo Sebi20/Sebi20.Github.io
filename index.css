@@ -21,8 +21,8 @@ body {
 }
 
 .headerTextbox{
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
     margin-right: 10%;
     margin-left: 25%;
 }
@@ -34,7 +34,7 @@ body {
 
 .headerTextbox p{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 
 }
 
@@ -56,13 +56,13 @@ body {
 /*------------------------End of the header---------------------------------------*/
 .quickLinksDiv{
     display: grid;
-    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-columns: 90px 90px 90px 90px;
     place-content: center;
 }
 img#icons{
     position: relative;
     padding: 7px;
-    width:40px;
+    width:60px;
 }
 img#icons:hover{
     box-shadow: 2px 2px 20px 2px#f1d69b
@@ -81,16 +81,22 @@ img#icons:hover{
 
 .projectsContainer{
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns: 500px 500px; 
     color:whitesmoke;
     margin-left: 10px;
+    justify-content: center;
 
 }
 
 .projects{
     margin: 10px;
-    background-color: gray;
-    transition: 0.5s;
+    transition: 1s;
+    height: 250px;
+}
+
+.projects img{
+    width: 100%;
+    height: 100%;
 }
 
 .projectsHeading{
@@ -99,20 +105,6 @@ img#icons:hover{
 
 .projects:hover{
     transform: scale(1.1);
-    border: 1px solid #767fff;
+    box-shadow: 2px 2px 20px 2px#f1d69b;
     z-index: 1;
-
-
-}
-
-.projectTitle{
-    margin-right: auto;
-}
-
-.projectStart{
-    margin-right: 10px;
-}
-
-.projectTitle{
-    margin-right: 5px;
 }
