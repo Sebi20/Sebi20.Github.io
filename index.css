@@ -113,3 +113,15 @@ img#icons:hover{
 audio{
     color: #F0A500;
 }
+
+.skillsSection{
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    place-content: center;
+}
+
+.skill img{
+    padding: 7px;
+    width:60px;
+    transition: 1s;
+}
