@@ -3,8 +3,6 @@ html{
 }
 
 body {
-    /* Potential text color #DBE8D4 */
-	/* background-color: #222733; */
     background-size: cover;
     background-color: rgb(32, 32, 32)
     
@@ -24,12 +22,19 @@ body {
     max-width: 400px;
     max-height: 400px;
     margin-right: 10%;
-    margin-left: 25%;
+    margin-left: 20%;
 }
 
 .headerImg{
-    height: 200px;
-    width: 192px;
+    height: 400px;
+    width: 230px;
+    position: relative;
+  animation: rotateImg 10s infinite;
+}
+
+@keyframes rotateImg {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
 }
 
 .headerTextbox p{
@@ -123,5 +128,4 @@ audio{
 .skill img{
     padding: 7px;
     width:60px;
-    transition: 1s;
 }
