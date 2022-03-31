@@ -29,7 +29,7 @@ body {
     height: 400px;
     width: 230px;
     position: relative;
-  animation: rotateImg 1s infinite;
+  animation: rotateImg 2s infinite;
   animation-timing-function: linear;
 }
 
