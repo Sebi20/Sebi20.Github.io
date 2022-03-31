@@ -29,20 +29,18 @@ body {
     height: 400px;
     width: 230px;
     position: relative;
-  animation: rotateImg 2s infinite;
-  animation-timing-function: linear;
+    animation: bounceImg 2s infinite;
+    animation-timing-function: linear;
 }
 
-@keyframes rotateImg {
+@keyframes bounceImg {
     0%{transform:  translate(0px,0px);}
-    /* 25%{transform: translate(0px,15px);} */
     50%{transform: translate(0px,15px);}
-    /* 75%{transform: translate(0px,15px);} */
     100%{transform: translate(0px,0px);}
 }
 
 .headerTextbox p{
-    color: white;
+    color: aliceblue;
     font-size: 25px;
 
 }
@@ -132,4 +130,14 @@ audio{
 .skill img{
     padding: 7px;
     width:60px;
+}
+
+#reactIcon{
+    animation: rotateReactImg 10s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotateReactImg {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
 }
