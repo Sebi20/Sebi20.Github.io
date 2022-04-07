@@ -22,9 +22,13 @@ nav{
 }
 
 nav a{
-
     color: aliceblue;
     text-decoration: none;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: rgba(238, 218, 151, 0.7);
 }
 
 #hrUnderNav{
