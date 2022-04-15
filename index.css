@@ -186,6 +186,22 @@ audio{
     width:60px;
 }
 
+.caption{
+    position: relative;
+    right: 7%;
+    height: 0px;
+    display: none;
+    color: aliceblue;
+    z-index: 6;
+    place-content: center;
+    
+}
+
+.skill:hover .caption{
+    display:grid;
+    
+}
+
 #reactIcon{
     animation: rotateReactImg 10s infinite;
     animation-timing-function: linear;
