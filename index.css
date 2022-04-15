@@ -53,6 +53,14 @@ nav a:hover{
     margin-left: 20%;
 }
 
+.myName{
+    color: #F0A500;
+}
+
+.myNickName{
+    color: #f1d69b;
+}
+
 .headerImg{
     height: 400px;
     width: 230px;
