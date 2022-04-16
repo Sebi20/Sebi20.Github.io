@@ -191,15 +191,14 @@ audio{
     right: 7%;
     height: 0px;
     display: none;
-    color: aliceblue;
+    color: gra;
     z-index: 6;
     place-content: center;
-    
 }
 
 .skill:hover .caption{
     display:grid;
-    
+    text-shadow: 0 0 3px #f1d69b, 0 0 5px  #f1d69b;
 }
 
 #reactIcon{
