@@ -186,6 +186,12 @@ audio{
     width:60px;
 }
 
+@keyframes rotateSkills{
+    0%{transform: rotateY(0deg);}
+    50%{transform: rotateY(360deg);}
+    100%{transform: rotateY(160deg);}
+}
+
 .caption{
     position: relative;
     right: 7%;
