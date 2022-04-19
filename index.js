@@ -1,5 +1,6 @@
 let skill = document.querySelectorAll('.skill');
 const projects = document.querySelectorAll(".projects");
+const headerImg = document.querySelectorAll('.headerImg');
 
 // for(let i = 0; i < projects.length; i++){
 //     window.addEventListener('scroll', function(){
