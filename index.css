@@ -253,7 +253,7 @@ audio{
 
 .art:hover{
     transform: scale(1.03);
-    box-shadow: 2px 2px 20px 2px #f1d69b;
+    box-shadow: 2px 2px 20px 2px #a29bf1;
     z-index: 1;
 }
 /* End of the Art Section */
