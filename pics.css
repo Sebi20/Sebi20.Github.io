@@ -2,3 +2,37 @@ body {
     background-color: rgb(32, 32, 32);
     color: aliceblue;
 } 
+
+
+.yearTitle{
+    width: fit-content;
+}
+
+.yearDescription{
+    color: #a29bf1;
+
+}
+
+.yearTitle hr{
+    width: auto;
+    border: 1px solid rgba(238, 218, 151, 0.7);
+   
+}
+
+.content{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+
+}
+
+.imgContainer{
+    margin: 5px;
+}
+
+.imgContainer img{
+    width: 590px;
+    border-radius: 10px;
+    border: 0.5px solid aliceblue;
+    height: 450px;
+}
