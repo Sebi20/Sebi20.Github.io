@@ -3,6 +3,27 @@ body {
     color: aliceblue;
 } 
 
+nav{
+    position: static;
+    top: 0;
+    display: grid;
+    grid-template-columns: 120px 90px 60px 30px;
+    place-content: center;
+    height: auto;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+}
+
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: rgba(238, 218, 151, 0.7);
+}
 
 .yearTitle{
     width: fit-content;
@@ -22,7 +43,7 @@ body {
 .content{
     /* background-color: red; */
     display: grid;
-    grid-template-columns: 600px 600px 600px;
+    grid-template-columns: 570px 570px 570px;
 
 }
 
@@ -31,7 +52,7 @@ body {
 }
 
 .imgContainer img{
-    width: 590px;
+    width: 560px;
     border-radius: 10px;
     border: 0.5px solid aliceblue;
     height: 450px;
