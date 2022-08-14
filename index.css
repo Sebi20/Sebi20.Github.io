@@ -164,6 +164,30 @@ nav a:hover{
 .projects img{
     width: 100%;
     height: 100%;
+    z-index: -2;
+    position: relative;
+}
+
+.projectSkin{
+    opacity: 0;
+    display: none;
+    background-color: #535259;
+    position: relative;
+    transition: .5s ease;
+    z-index: 3;
+    bottom: 101.5%;
+}
+
+.projectSkin button{
+    margin: 5px;
+}
+
+.projectSkinDemoBtn{
+    height: 20px;
+}
+
+.projectSkinRepoBtn{
+    height: 20px;
 }
 
 .projectsHeading{
@@ -174,6 +198,15 @@ nav a:hover{
     transform: scale(1.1);
     box-shadow: 2px 2px 20px 2px #f1d69b;
     z-index: 1;
+}
+
+.projects:hover .projectSkin{
+    opacity: 0.9;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 @keyframes spinProjects {
