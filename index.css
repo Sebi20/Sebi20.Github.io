@@ -171,24 +171,32 @@ nav a:hover{
 .projectSkin{
     opacity: 0;
     display: none;
-    background-color: #535259;
+    background-color: #434246;
     position: relative;
-    transition: .5s ease;
+    transition: 2s ease;
     z-index: 3;
     bottom: 101.5%;
 }
 
 .projectSkin button{
     margin: 5px;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
 }
 
 .projectSkinDemoBtn{
-    height: 20px;
+    background-color: #a29bf1;
 }
 
 .projectSkinRepoBtn{
-    height: 20px;
+    background-color: #f1d69b;
 }
+
+.projectSkin button:hover{
+    cursor: pointer;
+}
+
 
 .projectsHeading{
     display: flex;
@@ -201,7 +209,7 @@ nav a:hover{
 }
 
 .projects:hover .projectSkin{
-    opacity: 0.9;
+    opacity: 0.8;
     display: flex;
     width: 100%;
     height: 100%;
