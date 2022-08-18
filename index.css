@@ -298,3 +298,51 @@ audio{
     z-index: 1;
 }
 /* End of the Art Section */
+
+/* Start of the email form section */
+.emailFormSection{
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    width: auto;
+}
+
+#emailForm{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center; 
+    background-color: #a29bf14f;
+    display:grid;
+    place-items: center;
+    width: 300px;
+    padding: 5px;
+}
+
+#emailForm h1{
+    color: aliceblue ;
+}
+
+#from_name{
+    background-color: #434246;
+    border: solid 1px none;
+    height: 30px;
+}
+
+#email_id{
+    background-color: #434246;
+    order: solid 1px none;
+    height: 30px;
+}
+
+#message{
+    background-color: #434246;
+    color: aliceblue;
+    height: 140px;
+    width: 75%;
+    resize: none;
+}
+
+#submitMessageBtn{
+    background-color: #f1d69b;
+}
+/* End of the email form section */
