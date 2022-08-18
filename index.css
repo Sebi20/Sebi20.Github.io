@@ -12,10 +12,9 @@ body {
 nav{
     position: static;
     top: 0;
-    display: grid;
-    grid-template-columns: 120px 90px 60px 30px;
+    display: flex;
+    /* grid-template-columns: 120px 90px 60px 30px 0px; */
     place-content: center;
-    height: auto;
     text-decoration: none;
     color: inherit;
     width: 100%;
@@ -25,6 +24,7 @@ nav a{
     color: aliceblue;
     text-decoration: none;
     transition: 0.5s;
+    margin-right: 15px;
 }
 
 nav a:hover{
@@ -303,46 +303,62 @@ audio{
 .emailFormSection{
     display: grid;
     place-items: center;
-    border-radius: 10px;
     width: auto;
 }
 
 #emailForm{
     margin-top: 20px;
     margin-bottom: 20px;
-    text-align: center; 
     background-color: #a29bf14f;
-    display:grid;
-    place-items: center;
-    width: 300px;
-    padding: 5px;
+    padding: 15px;
 }
 
 #emailForm h1{
     color: aliceblue ;
 }
 
+.allEmailInputs{
+    display: flex;
+}
+
+.nameAndEmailInputs{
+    margin-right: 15px;
+}
+
 #from_name{
     background-color: #434246;
     border: solid 1px none;
     height: 30px;
+    margin-bottom: 15px;
+    font-size: larger;
+    border-radius: 5px;
+    color: aliceblue;
 }
 
 #email_id{
     background-color: #434246;
     order: solid 1px none;
     height: 30px;
+    font-size: larger;
+    border-radius: 5px;
+    color: aliceblue;
 }
 
 #message{
     background-color: #434246;
     color: aliceblue;
     height: 140px;
-    width: 75%;
+    width: 300px;
     resize: none;
+    font-size: larger;
+    border-radius: 5px;
 }
 
 #submitMessageBtn{
     background-color: #f1d69b;
+    width: 200px;
+    height: 40px;
+    font: 1em sans-serif;
+    color: black;
 }
 /* End of the email form section */
