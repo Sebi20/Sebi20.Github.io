@@ -1,5 +1,7 @@
-const btn = document.getElementById('submitMessageBtn');
 
+
+// Email sending section
+const btn = document.getElementById('submitMessageBtn');
 document.getElementById('emailForm')
  .addEventListener('submit', function(event) {
    event.preventDefault();
@@ -19,30 +21,43 @@ document.getElementById('emailForm')
     });
 });
 
+// Scroll to the top section
+let button = document.createElement("button");
+button.innerHTML = "Scroll to top";
+button.style.backgroundColor = 'green';
+button.style.position = "fixed"
+button.style.zIndex = "2";
+button.style.right = "120px";
+button.style.bottom="2px";
+button.style.display = 'none';
+button.style.transition = "1s";
 
+document.body.appendChild(button);
 
+window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    button.style.display = "block";
+  } else {
+    button.style.display = "none";
+  }
+}
+
+button.addEventListener('click', function(){
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; 
+})
+
+// Skill icons animation section
 let skill = document.querySelectorAll('.skill');
 const projects = document.querySelectorAll(".projects");
 const headerImg = document.querySelectorAll('.headerImg');
-
-// for(let i = 0; i < projects.length; i++){
-//     window.addEventListener('scroll', function(){
-//         projects[i].style.animation = "spinProjects 2s 1"
-//     })
-// }
 
 for (let i in skill){
     skill[i].style.animation = "rotateSkills 1s 2";
     skill[i].animationTimingFunction = "ease-out"
 }
-
-
-
-
-
-
-
 
 
 
