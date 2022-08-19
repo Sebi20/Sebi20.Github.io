@@ -362,3 +362,11 @@ audio{
     color: black;
 }
 /* End of the email form section */
+
+/* KeyFrame for the scroll to the top button */
+
+@keyframes scrollBounce {
+    0%{transform:  translate(0px,0px);}
+    50%{transform: translate(0px,15px);}
+    100%{transform: translate(0px,0px);}
+}

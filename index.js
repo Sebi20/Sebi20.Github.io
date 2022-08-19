@@ -28,9 +28,16 @@ button.style.backgroundColor = 'green';
 button.style.position = "fixed"
 button.style.zIndex = "2";
 button.style.right = "120px";
-button.style.bottom="2px";
+button.style.bottom="15px";
 button.style.display = 'none';
 button.style.transition = "1s";
+button.style.color = "black";
+button.style.width = "120px";
+button.style.height = "40px";
+button.style.fontSize = "17px";
+button.style.borderRadius = "5px";
+button.style.border = "none";
+button.style.animation = "scrollBounce 0.3s 5";
 
 document.body.appendChild(button);
 
