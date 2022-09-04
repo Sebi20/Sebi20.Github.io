@@ -333,6 +333,11 @@ audio{
     font-size: larger;
     border-radius: 5px;
     color: aliceblue;
+    padding:3px;
+}
+
+#from_name::placeholder{
+    color: #f1d69b;
 }
 
 #email_id{
@@ -342,6 +347,11 @@ audio{
     font-size: larger;
     border-radius: 5px;
     color: aliceblue;
+    padding:3px;
+}
+
+#email_id::placeholder{
+    color: #f1d69b;
 }
 
 #message{
@@ -352,6 +362,11 @@ audio{
     resize: none;
     font-size: larger;
     border-radius: 5px;
+    padding: 5px;
+}
+
+#message::placeholder{
+    color: #f1d69b;
 }
 
 #submitMessageBtn{
