@@ -332,7 +332,7 @@ audio{
     margin-bottom: 15px;
     font-size: larger;
     border-radius: 5px;
-    color: aliceblue;
+    color: #f1d69b;
     padding:3px;
 }
 
@@ -346,7 +346,7 @@ audio{
     height: 30px;
     font-size: larger;
     border-radius: 5px;
-    color: aliceblue;
+    color: #f1d69b;
     padding:3px;
 }
 
@@ -356,7 +356,7 @@ audio{
 
 #message{
     background-color: #434246;
-    color: aliceblue;
+    color: #f1d69b;
     height: 140px;
     width: 300px;
     resize: none;
