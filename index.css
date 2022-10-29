@@ -60,11 +60,12 @@ nav a:hover{
 
 .myNickName{
     color: #f1d69b;
+    transition: 0.4s;
 }
 
 .myNickName:hover{
     font-size: 20px;
-    color: #F0A500;
+    color: #a29bf1;
 }
 
 .headerImg{
@@ -259,6 +260,7 @@ audio{
     color: aliceblue;
     z-index: 6;
     place-content: center;
+   
 }
 
 .skill:hover .caption{
