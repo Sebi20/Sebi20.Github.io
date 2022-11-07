@@ -110,14 +110,36 @@ nav a:hover{
     grid-template-columns: 90px 90px 90px 90px;
     place-content: center;
 }
+
+.quickLinksCaptions{
+    position: relative;
+    bottom: 25px;
+    right: 7%;
+    height: 0px;
+    display: none;
+    color: aliceblue;
+    z-index: 6;
+    place-content: center;
+    text-align: center;
+}
+
+.icons:hover .quickLinksCaptions{
+    display: block;
+    
+}
+
 .icons{
+    /* background-color: red; */
+    height:  85px;
+}
+.icons img{
     /* position: relative; */
     width:60px;
     padding: 5px;
     transition: 1s;
     border-radius: 10px;
 }
-.icons:hover{
+.icons img:hover{
     box-shadow: 2px 2px 20px 2px #f1d69b;
 }
 
