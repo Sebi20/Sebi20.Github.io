@@ -1,6 +1,4 @@
-
-
-// Email sending section
+//  Email sending section
 const btn = document.getElementById('submitMessageBtn');
 document.getElementById('emailForm')
  .addEventListener('submit', function(event) {
@@ -21,7 +19,7 @@ document.getElementById('emailForm')
     });
 });
 
-// Scroll to the top section
+//  Scroll to the top section
 let button = document.createElement("button");
 button.innerHTML = "Scroll to top";
 button.style.backgroundColor = 'green';
@@ -56,13 +54,13 @@ button.addEventListener('click', function(){
   document.documentElement.scrollTop = 0; 
 })
 
-// Skill icons animation section
+//  Skill icons animation section
 let skill = document.querySelectorAll('.skill');
 const projects = document.querySelectorAll(".projects");
 const headerImg = document.querySelectorAll('.headerImg');
 
 for (let i in skill){
-    skill[i].style.animation = "rotateSkills 1s 2";
+    skill[i].style.animation = "rotateSkills 1s 2"; 
     skill[i].animationTimingFunction = "ease-out"
 }
 
