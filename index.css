@@ -421,3 +421,8 @@ audio{
     50%{transform: translate(0px,15px);}
     100%{transform: translate(0px,0px);}
 }
+
+footer{
+    text-align: center;
+    color: #a29bf1;
+}

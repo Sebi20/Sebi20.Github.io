@@ -54,6 +54,12 @@ button.addEventListener('click', function(){
   document.documentElement.scrollTop = 0; 
 })
 
+
+//  Responsible for the copyright year being accurate on the site
+let yearSpan = document.getElementById('year');
+let year = new Date().getFullYear();
+yearSpan.textContent = year;
+
 //  Skill icons animation section
 let skill = document.querySelectorAll('.skill');
 const projects = document.querySelectorAll(".projects");
